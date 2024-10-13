@@ -1,5 +1,6 @@
 # Portfolyo
  Portfolio Web Site
-![image](https://github.com/user-attachments/assets/a68a4655-0788-40d8-b91b-aa22f73b6e5e)
-![image](https://github.com/user-attachments/assets/149351ad-b6d5-4563-84d5-edff51f43aa8)
-![image](https://github.com/user-attachments/assets/4da5686e-62ef-43b9-9074-e1e133c2e733)
+![Ekran görüntüsü 2024-10-13 235558](https://github.com/user-attachments/assets/4daab5a7-a754-4b49-bad9-2f36798608e7)
+![Ekran görüntüsü 2024-10-13 235620](https://github.com/user-attachments/assets/0128977b-c079-4ea2-8c77-7aa2a74b61b1)
+![Ekran görüntüsü 2024-10-13 235644](https://github.com/user-attachments/assets/122cc5b6-d4be-4754-912c-3f9648f32f6e)
+![Ekran görüntüsü 2024-10-13 235742](https://github.com/user-attachments/assets/069ef0b8-de91-46dd-9b64-676d6462f79d)
