@@ -7,16 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
+    <header class="header">
         <div class="container">
-            <h1>Emin Yazar</h1>
-            <nav>
-                <ul>
-                    <li><a href="#hakkimda">Hakkımda</a></li>
-                    <li><a href="#projeler">Projeler</a></li>
-                    <li><a href="#iletisim">İletişim</a></li>
-                </ul>
+            <a href="./index.html" class="logo">Emin Yazar</a>
+            <nav class="header-right">
+                <a href="./about.html">Hakkımda</a>
+                <a href="./projects.html">Projelerim</a>
             </nav>
         </div>
     </header>
@@ -30,14 +26,11 @@
     <section id="hakkimda" class="hakkimda">
         <div class="container">
             <h2>Hakkımda</h2>
-            <p> Merhaba! Ben Emin Yazar, bilgisayar mühendisliği öğrencisi ve yazılım geliştiricisiyim. Yazılım geliştirme projelerimde modern teknikleri kullanarak hızlı ve performanslı uygulamalar geliştirmeye odaklanıyorum.
-                
-                <ul style="text-align: left; margin-top: 10px">
-                    <li style="padding: 5px;"> Projelerimi ve açık kaynak katkılarımı görmek istersen, GitHub profilim üzerinden çalışmalarımı inceleyebilirsin: <a href="https://github.com/eminyazar" target="_blank">GitHub Profilim.</a></li>
-                    <li>Yeni fırsatlar keşfetmek ve profesyonel ağımı genişletmek için LinkedIn'de de aktifim: <a href="https://www.linkedin.com/in/emin-yazar-127523257/">LinkedIn Profilim.</a></li>
-                </ul>
-
-            </p>
+            <p>Merhaba! Ben Emin Yazar, bilgisayar mühendisliği öğrencisi ve yazılım geliştiricisiyim. Yazılım geliştirme projelerimde modern teknikleri kullanarak hızlı ve performanslı uygulamalar geliştirmeye odaklanıyorum.</p>
+            <ul style="text-align: left; margin-top: 10px">
+                <li style="padding: 5px;">Projelerimi ve açık kaynak katkılarımı görmek istersen, GitHub profilim üzerinden çalışmalarımı inceleyebilirsin: <a href="https://github.com/eminyazar" target="_blank">GitHub Profilim.</a></li>
+                <li>Yeni fırsatlar keşfetmek ve profesyonel ağımı genişletmek için LinkedIn'de de aktifim: <a href="https://www.linkedin.com/in/emin-yazar-127523257/" target="_blank">LinkedIn Profilim.</a></li>
+            </ul>
             <img src="./images/profile.png" alt="Emin Yazar" class="profile-pic">
         </div>
     </section>
@@ -45,54 +38,61 @@
     <section id="projeler" class="projeler">
         <div class="container">
             <h2>Projelerim</h2>
-
-            <br>
-            
             <div class="project-grid">
+                
                 <div class="project-item">
+                    <a href="https://github.com/eminyazar/MeramApp">
                     <img src="./images/proje-meram.png" alt="Proje 1">
                     <h3>Meram App</h3>
                     <p>Örnek Web Uygulaması: Kullanıcı dostu, dinamik içerik sağlayan bir web uygulaması geliştirdim.</p>
+                    </a>
                 </div>
+
                 <div class="project-item">
+                    <a href="https://github.com/eminyazar/E-Store">
                     <img src="./images/proje-store.png" alt="Proje 2">
                     <h3>E Store</h3>
-                    <p>Örnek web Uygulaması: API Kullanarak ReactJS ile geliştirdiğim internet mağazası.</p>
+                    <p>Örnek Web Uygulaması: API Kullanarak ReactJS ile geliştirdiğim internet mağazası.</p>
+                    </a>
                 </div>
+
                 <div class="project-item">
+                    <a href="https://github.com/eminyazar/Scrapy-Kitapyurdu">
                     <img src="./images/proje-kitapyurdu.png" alt="Proje 3">
                     <h3>Web Scraping - Kitapyurdu</h3>
                     <p>Bot: Kitapyurdu sitesinden verilen linke göre veri çeken uygulama.</p>
+                    </a>    
                 </div>
+
+                <div class="project-item">
+                <a href="https://github.com/eminyazar/ToDo-app" class="project-item">
+                    <img src="./images/proje-todo.png" alt="Proje 3">
+                    <h3>Web Site - To Do</h3>
+                    <p>Örnek web Uygulaması: Yapılacaklar listesi.</p>
+                </a>
+                </div>
+
             </div>
-
-            <br>
-
-            <div style="text-align: center;">
-                <a href="https://github.com/eminyazar" >Daha fazlası için Github</a> 
-            </div> 
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="https://github.com/eminyazar" class="btn">Daha fazlası için GitHub</a>
+            </div>
         </div>
-        
     </section>
 
     <section id="iletisim" class="iletisim">
         <div class="container">
             <h2>İletişim</h2>
-
             <p>Benimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:</p>
-
             <ul>
-                <li><strong>E-posta:</strong> yazaremin70@gmail.com.com</li>
-                <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/emin-yazar-127523257/"> Emin Yazar</a></li>
+                <li><strong>E-posta:</strong> yazaremin70@gmail.com</li>
+                <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/emin-yazar-127523257/" target="_blank">Emin Yazar</a></li>
                 <li><strong>Adres:</strong> Sakarya, Türkiye</li>
             </ul>
-
         </div>
     </section>
 
     <footer>
         <p>&copy; 2024 Emin Yazar</p>
     </footer>
-
 </body>
 </html>
